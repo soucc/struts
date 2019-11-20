@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSH/SSH.iml" filepath="$PROJECT_DIR$/SSH/SSH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSHDemo/SSHDemo.iml" filepath="$PROJECT_DIR$/SSHDemo/SSHDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSHDemo1/SSHDemo1.iml" filepath="$PROJECT_DIR$/SSHDemo1/SSHDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts.iml" filepath="$PROJECT_DIR$/struts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2Demo1/struts2Demo1.iml" filepath="$PROJECT_DIR$/struts2Demo1/struts2Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2Demo2/struts2Demo2.iml" filepath="$PROJECT_DIR$/struts2Demo2/struts2Demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2Demo3/struts2Demo3.iml" filepath="$PROJECT_DIR$/struts2Demo3/struts2Demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2Demo4/struts2Demo4.iml" filepath="$PROJECT_DIR$/struts2Demo4/struts2Demo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2Demo5/struts2Demo5.iml" filepath="$PROJECT_DIR$/struts2Demo5/struts2Demo5.iml" />
+    </modules>
+  </component>
+</project>

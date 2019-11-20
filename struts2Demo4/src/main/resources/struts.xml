@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="default" namespace="" extends="struts-default">
+        <interceptors>
+            <interceptor name="my" class="cn.infer.LoginInfer"></interceptor>
+            <interceptor-stack name="cc">
+                <interceptor-ref name="my"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="cc"/>
+
+        <global-results>
+            <result name="log">/index.jsp</result>
+        </global-results>
+
+        <action name="select" class="cn.action.User" method="cu">
+            <result>/show.jsp</result>
+        </action>
+    </package>
+    <package name="aa" extends="struts-default">
+        <action name="up" class="cn.action.Up" method="up">
+            <result>/index.jsp</result>
+        </action>
+
+        <action name="xz" class="cn.action.Xz" method="xz">
+            <result type="stream">
+                <param name="contentType">${ct}</param>
+                <param name="inputName">is</param>
+                <param name="contentDisposition">${cd}</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+    </package>
+
+
+</struts>

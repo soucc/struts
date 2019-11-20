@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="li" namespace="" extends="struts-default">
+
+        <action name="a" method="execute" class="cn.web.action.A">
+            <result name="success" type="dispatcher">/WEB-INF/show.jsp</result>
+        </action>
+        <action name="b" method="execute" class="cn.web.action.B">
+            <result name="success" type="dispatcher">/WEB-INF/show.jsp</result>
+        </action>
+        <action name="c" method="cc" class="cn.web.action.C">
+            <result name="cc" type="dispatcher">/WEB-INF/show.jsp</result>
+        </action>
+        <action name="d" method="dd" class="cn.web.action.C">
+            <result  type="dispatcher">/WEB-INF/show.jsp</result>
+        </action>
+        <action name="e" method="ee" class="cn.web.action.C">
+            <result  type="dispatcher">/WEB-INF/show.jsp</result>
+        </action>
+
+    </package>
+
+
+</struts>

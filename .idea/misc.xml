@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SSH" />
+    <file type="web" url="file://$PROJECT_DIR$/SSHDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/SSHDemo1" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2Demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2Demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2Demo3" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2Demo4" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2Demo5" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/struts2Demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/struts2Demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/struts2Demo3/pom.xml" />
+        <option value="$PROJECT_DIR$/struts2Demo4/pom.xml" />
+        <option value="$PROJECT_DIR$/struts2Demo5/pom.xml" />
+        <option value="$PROJECT_DIR$/SSHDemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/SSH/pom.xml" />
+        <option value="$PROJECT_DIR$/SSHDemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
